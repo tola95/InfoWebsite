@@ -1,0 +1,22 @@
+{
+  "name": "infowebsite",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tola95/InfoWebsite.git"
+  },
+  "author": "Omotola Babasola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tola95/InfoWebsite/issues"
+  },
+  "homepage": "https://github.com/tola95/InfoWebsite#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

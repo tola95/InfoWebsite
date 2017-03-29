@@ -1,0 +1,125 @@
+body {background-color:rgba(255,255,255,0.1);
+    text-align: center;
+}
+h1
+{
+    color:black;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 175px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+p    {color:gold}
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a.github {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    float: right;
+}
+a.github:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+a.cv{
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    float: right;
+}
+a.cv:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+a.home:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+a.ctct:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+a.about:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+a.news:hover
+{
+    color: orange;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+a {
+    font-family: Helvetica;
+    display: block;
+    width: 60px;
+}
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: rgba(255,0,0,0.5);
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.x:link, a.x:visited {
+    background-color: transparent;
+}
+.MainContainer {
+    width: 1200px;
+    background-color: #0066CC;
+}
+.MenuContainer {
+    height: 70px;
+    bottom:0;
+}
+ul#navigation {
+    height: 70px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Cham-WebFont', Arial, sans-serif;
+    background-color: #FFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ul#navigation li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul#navigation li.last {
+    margin-right: 0;
+}
+html, body {
+    height: 100%;
+}
